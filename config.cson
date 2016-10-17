@@ -1,0 +1,125 @@
+"*":
+  "atom-beautify":
+    cpp: {}
+    general:
+      analytics: false
+      beautifyEntireFileOnSave: false
+  "atom-material-ui":
+    colors:
+      abaseColor: "#d54555"
+      accentColor: "#45eedb"
+      genAccent: true
+      paintCursor: true
+      predefinedColor: "Red"
+    fonts: {}
+    tabs: {}
+    treeView:
+      compactList: true
+    ui:
+      panelContrast: true
+  "autocomplete-plus":
+    backspaceTriggersAutocomplete: true
+    suggestionListFollows: "Cursor"
+  autosave:
+    enabled: true
+  "color-picker":
+    preferredFormat: "HEX"
+    uppercaseColorValues: true
+  core:
+    disabledPackages: [
+      "metrics"
+      "language-clojure"
+      "language-coffee-script"
+      "language-csharp"
+      "language-gfm"
+      "language-go"
+      "language-less"
+      "language-mustache"
+      "language-objective-c"
+      "language-property-list"
+      "language-ruby"
+      "language-ruby-on-rails"
+      "language-sass"
+      "language-shellscript"
+      "language-toml"
+      "language-xml"
+      "language-yaml"
+      "welcome"
+      "release-notes"
+      "about"
+      "activate-power-mode"
+      "autosave"
+    ]
+    ignoredNames: [
+      "*.gch"
+      "*.o"
+      "*.git"
+      "*.DS_Store"
+      "*.pyc"
+      "*.zip"
+      "*.tar"
+      "*.out"
+      "*.class"
+    ]
+    themes: [
+      "atom-material-ui"
+      "one-dark-syntax"
+    ]
+  editor:
+    fontSize: 13
+    invisibles: {}
+    scrollPastEnd: true
+    showIndentGuide: true
+    tabLength: 4
+    tabType: "soft"
+  "exception-reporting":
+    userId: "1bce4e50-8e06-c01f-2e64-7bd3f36d88e6"
+  "line-ending-selector":
+    defaultLineEnding: "LF"
+  linter:
+    gutterPosition: "Left"
+  "linter-clang": {}
+  "linter-flake8":
+    ignoreErrorCodes: [
+      "E501"
+      "E201"
+      "E202"
+    ]
+  "merge-conflicts":
+    gitPath: "/usr/bin/git"
+  minimap:
+    plugins:
+      "highlight-selected": true
+      "highlight-selectedDecorationsZIndex": 0
+    scrollAnimation: true
+  "one-dark-ui":
+    fontSize: 12
+  pigments:
+    autocompleteSuggestionsFromValue: true
+    extendAutocompleteToColorValue: true
+    extendAutocompleteToVariables: true
+    groupPaletteColors: "by file"
+    sortPaletteColors: "by name"
+  qolor:
+    fourBorders: true
+  "status-bar": {}
+  tabs:
+    enableVcsColoring: true
+  "tree-view":
+    hideIgnoredNames: true
+  welcome:
+    showOnStartup: false
+  whitespace:
+    ignoreWhitespaceOnCurrentLine: false
+".console.python.text":
+  editor:
+    tabLength: 4
+".python.source":
+  editor:
+    autoIndentOnPaste: true
+".python.text.traceback":
+  editor:
+    tabLength: 4
+".text.todo":
+  editor:
+    tabLength: 4
