@@ -26,13 +26,13 @@ atom-text-editor {
   // background-color: hsl(180, 24%, 12%);
 }
 
-atom-text-editor::shadow {
-    .git-commit.invalid.deprecated.line-too-long {
+atom-text-editor.editor {
+    .syntax--git-commit.syntax--invalid.syntax--deprecated.syntax--line-too-long {
         color: @text-color-warning;
         text-decoration: none;
     }
 
-    .git-commit.invalid.illegal.line-too-long {
+    .syntax--git-commit.syntax--invalid.syntax--illegal.syntax--line-too-long {
         color: @text-color-selected;
         background: @background-color-error;
         opacity: 0.9;
@@ -40,6 +40,6 @@ atom-text-editor::shadow {
 }
 
 // To style other content in the text editor's shadow DOM, use the ::shadow expression
-atom-text-editor::shadow .cursor {
+atom-text-editor.editor .cursor {
   // border-color: red;
 }
