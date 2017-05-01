@@ -78,8 +78,7 @@
     userId: "1bce4e50-8e06-c01f-2e64-7bd3f36d88e6"
   "line-ending-selector":
     defaultLineEnding: "LF"
-  linter:
-    gutterPosition: "Left"
+  linter: {}
   "linter-clang": {}
   "linter-flake8":
     ignoreErrorCodes: [
@@ -90,6 +89,7 @@
   "merge-conflicts":
     gitPath: "/usr/bin/git"
   minimap:
+    disablePythonDocLinks: true
     plugins:
       "highlight-selected": true
       "highlight-selectedDecorationsZIndex": 0
@@ -116,6 +116,10 @@
 ".console.python.text":
   editor:
     tabLength: 4
+".latex.tex.text":
+  editor:
+    softWrap: true
+    softWrapAtPreferredLineLength: true
 ".python.source":
   editor:
     autoIndentOnPaste: true
