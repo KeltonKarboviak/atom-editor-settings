@@ -41,7 +41,6 @@
       "language-property-list"
       "language-ruby"
       "language-ruby-on-rails"
-      "language-sass"
       "language-shellscript"
       "language-toml"
       "language-xml"
@@ -85,7 +84,11 @@
       "E501"
       "E201"
       "E202"
+      "D100"
     ]
+  "linter-php": {}
+  "linter-ui-default":
+    showPanel: true
   "merge-conflicts":
     gitPath: "/usr/bin/git"
   minimap:
