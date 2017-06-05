@@ -22,6 +22,11 @@
 # * https://atom.io/docs/latest/behind-atom-keymaps-in-depth
 #
 # This file uses CoffeeScript Object Notation (CSON).
-# If you are unfamiliar with CSON, you can read more about it in the 
+# If you are unfamiliar with CSON, you can read more about it in the
 # Atom Flight Manual:
 # https://atom.io/docs/latest/using-atom-basic-customization#cson
+
+'atom-text-editor[data-grammar~="latex"]':
+  'alt-shift-o': 'latexer:omnicomplete'
+  'alt-shift-r': 'latexer:insert-reference'
+  'alt-shift-c': 'latexer:insert-citation'

@@ -19,9 +19,10 @@
       compactList: true
     ui:
       panelContrast: true
+  "atom-package-deps":
+    ignored: []
   "autocomplete-bibtex":
-    bibtex: [
-    ]
+    bibtex: []
     resultTemplate: "\\cite{[key]}"
     scope: ".text.tex.latex"
   "autocomplete-plus":
@@ -83,6 +84,9 @@
   "exception-reporting":
     userId: "1bce4e50-8e06-c01f-2e64-7bd3f36d88e6"
   "file-icons": {}
+  latex:
+    opener: "pdf-view"
+    outputDirectory: "build"
   "line-ending-selector":
     defaultLineEnding: "LF"
   linter: {}
@@ -106,6 +110,9 @@
     scrollAnimation: true
   "one-dark-ui":
     fontSize: 12
+  "pdf-view":
+    fitToWidthOnOpen: true
+    paneToUseInSynctex: "left"
   pigments:
     autocompleteSuggestionsFromValue: true
     extendAutocompleteToColorValue: true
@@ -114,6 +121,15 @@
     sortPaletteColors: "by name"
   qolor:
     fourBorders: true
+  "spell-check":
+    grammars: [
+      "source.asciidoc"
+      "source.gfm"
+      "text.git-commit"
+      "text.plain"
+      "text.plain.null-grammar"
+      "text.tex.latex"
+    ]
   "status-bar": {}
   tabs:
     enableVcsColoring: true
