@@ -98,7 +98,8 @@
       "D100"
     ]
   "linter-php": {}
-  "linter-ui-default": {}
+  "linter-ui-default":
+    showPanel: true
   "merge-conflicts":
     gitPath: "/usr/bin/git"
   minimap:
