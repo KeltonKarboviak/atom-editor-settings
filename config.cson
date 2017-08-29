@@ -99,6 +99,7 @@
     ]
   "linter-php": {}
   "linter-ui-default":
+    panelHeight: 81
     showPanel: true
   "merge-conflicts":
     gitPath: "/usr/bin/git"
@@ -139,6 +140,10 @@
     showOnStartup: false
   whitespace:
     ignoreWhitespaceOnCurrentLine: false
+".blade.html.php.text":
+  editor:
+    commentEnd: " --}}"
+    commentStart: "{{-- "
 ".console.python.text":
   editor:
     tabLength: 4
