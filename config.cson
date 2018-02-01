@@ -67,6 +67,7 @@
       "*.tar"
       "*.out"
       "*.class"
+      "venv"
     ]
     telemetryConsent: "no"
     themes: [
