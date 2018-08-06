@@ -39,16 +39,11 @@
       "language-clojure"
       "language-coffee-script"
       "language-csharp"
-      "language-gfm"
       "language-go"
       "language-less"
       "language-mustache"
       "language-objective-c"
       "language-property-list"
-      "language-ruby"
-      "language-ruby-on-rails"
-      "language-shellscript"
-      "language-toml"
       "language-xml"
       "welcome"
       "release-notes"
@@ -56,6 +51,12 @@
       "activate-power-mode"
       "autosave"
       "language-perl"
+      "language-c"
+      "language-css"
+      "language-html"
+      "language-php"
+      "language-sass"
+      "language-typescript"
     ]
     ignoredNames: [
       "*.gch"
@@ -68,7 +69,9 @@
       "*.out"
       "*.class"
       "venv"
+      ".venv"
     ]
+    projectHome: "/Users/kelton.karboviak/Code"
     telemetryConsent: "no"
     themes: [
       "atom-material-ui"
@@ -76,7 +79,9 @@
     ]
   editor:
     fontSize: 13
+    fontFamily: "\"Fira Code\", Menlo, Consolas, DejaVu Sans Mono, monospace"
     invisibles: {}
+    lineHeight: 1.4
     scrollPastEnd: true
     showIndentGuide: true
     tabLength: 4
@@ -102,6 +107,8 @@
   "linter-ui-default":
     panelHeight: 81
     showPanel: true
+  "markdown-preview":
+    useGitHubStyle: true
   "merge-conflicts":
     gitPath: "/usr/bin/git"
   minimap:
@@ -148,6 +155,9 @@
 ".console.python.text":
   editor:
     tabLength: 4
+".json.source":
+  editor:
+    tabLength: 2
 ".latex.tex.text":
   editor:
     softWrap: true
@@ -158,6 +168,9 @@
 ".python.text.traceback":
   editor:
     tabLength: 4
+".source.yaml":
+  editor:
+    tabLength: 2
 ".text.todo":
   editor:
     tabLength: 4
