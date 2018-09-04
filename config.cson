@@ -70,6 +70,8 @@
       "*.class"
       "venv"
       ".venv"
+      "__pycache__"
+      ".pytest_cache"
     ]
     projectHome: "/Users/kelton.karboviak/Code"
     telemetryConsent: "no"
@@ -94,7 +96,10 @@
     outputDirectory: "build"
   "line-ending-selector":
     defaultLineEnding: "LF"
-  linter: {}
+  linter:
+    disabledProviders: [
+      "PHP"
+    ]
   "linter-clang": {}
   "linter-flake8":
     ignoreErrorCodes: [
